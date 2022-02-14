@@ -1,7 +1,7 @@
 import axios from "axios";
 
 //const url = `${process.env.REACT_APP_URL_API}/users`
-const url = `http://localhost:5000/api/v1/users`
+const url = `https://back-end-bank-app.herokuapp.com/api/v1/users`
 
 export const addUser = async (user) => {
 
